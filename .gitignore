@@ -1,0 +1,16 @@
+# Build artifacts
+.build/
+.swiftpm/
+ImageOptimizer.app/
+*.xcodeproj/
+*.xcworkspace/
+
+# macOS
+.DS_Store
+
+# Local dev scratch (notes, screenshots, plans, copyrighted test wallpapers)
+.context/
+
+# Studio Vybe brand source assets (the baked Resources/AppIcon.icns is committed;
+# the raw logo SVGs are kept private). build.sh --icon skips icon regen when absent.
+Resources/icon/
