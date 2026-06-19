@@ -5,6 +5,17 @@ Manager (no Xcode project required). Optimize JPEG / PNG / WebP / AVIF by qualit
 target file size, per folder, with optional resize, rename, folder-watching, and
 drag-onto-dock processing. Fully local — no network, no accounts, no telemetry.
 
+## Download (no build needed)
+
+Grab the latest ready-to-run app from the
+[**Releases**](https://github.com/chr-di/studio-vybe-image-optimizer/releases/latest) page:
+download the `.dmg`, open it, and drag **Studio Vybe Optimizer** into your Applications folder.
+
+The app is ad-hoc signed (not notarized), so on first launch macOS asks you to confirm it:
+open **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** (only
+needed once). Requires macOS 14+ on Apple Silicon. To build from source instead, see
+[Build & run](#build--run).
+
 ## Features
 
 - **Two compression modes**
